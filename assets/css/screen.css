@@ -295,8 +295,8 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
-    margin-right: 5px;
+    max-height: 45px;
+    /* margin-right: 5px; */
 }
 
 .mainheading h1.sitetitle {
