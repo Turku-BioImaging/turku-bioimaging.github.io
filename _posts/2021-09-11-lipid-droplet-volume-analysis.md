@@ -9,20 +9,8 @@ featured: true
 hidden: true
 ---
 
-Director Roland Suso Richter's enigmatic psychological thriller (direct to video/DVD) was based upon screenwriter Michael Cooney's own play "Point of Death" - a title that gave away the film's entire plot twist premise.
+Duis vestibulum vitae diam sit amet congue. Curabitur viverra neque a risus varius, et varius lorem egestas. Mauris auctor odio non risus hendrerit gravida. Cras volutpat venenatis finibus. Duis aliquam non lorem vitae vulputate. Nullam eleifend egestas justo sed convallis. Phasellus id dui et nunc ullamcorper aliquet. Sed arcu magna, molestie non justo in, pulvinar volutpat diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus bibendum, metus sit amet semper sodales, dui ex commodo ex, a egestas sapien purus ac purus. Proin eget erat faucibus, rhoncus est at, pulvinar massa. Duis sed tortor quis lorem posuere condimentum. Aenean mi risus, viverra sed vestibulum ut, finibus eget dolor. Integer a aliquam sem, luctus efficitur velit. Ut vel cursus sem. Suspendisse sed pulvinar ligula, et varius nisl.
 
-As in many similar films, such as Jacob's Ladder (1990), Soul Survivors (2001), and The Butterfly Effect (2004), events and people were thoroughly distorted and confused because the protagonist was at the point of death. The tagline was misleading:
+Sed id suscipit orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis dui gravida, congue ex nec, bibendum orci. Mauris turpis nulla, luctus a interdum varius, molestie eu lectus. Maecenas aliquet massa est, at mollis justo egestas nec. Suspendisse gravida, est et vehicula vestibulum, enim orci condimentum turpis, nec tincidunt ipsum enim ut arcu. Donec rutrum maximus convallis. Proin non viverra metus. Suspendisse potenti.
 
-"When You Don't Have a Memory, How Can You Remember Who to Trust?"
-
-The mind-warping film opened with a hospital patient Simon Cable (Ryan Phillippe) awakening in a <span class="spoiler"> hospital with little knowledge (amnesia perhaps?) of what had happened, and why he was there, etc. He was told by attending Dr. Jeremy Newman (Stephen Rea) that it was July 29, 2002 (Simon thought it was the year 2000 - he was confused - he heard a doctor say 20:00 hours!) and that he had died for two minutes from cardiac arrest following the near-fatal accident -- but he had been revived ("You're as good as new").</span> Dr. Newman: "Simon, this is the 29th of July. The year is 2002. And your wife, whose name is Anna, is waiting outside." 
-
-(The doctor left off four crucial additional words, revealed in the film's ending.) (Spoiler: Simon had died and was not resuscitated!).
-
-A major clue to everything that truly happened was the scene that played next under the credits - hospital staff failed to bring a patient back to life with a defibrillator after a car accident. Chest compressions failed and there was no pulse. A second major clue was provided by hospital orderly Travis (Stephen Graham): <span class="spoiler">Everybody dies. No mystery there. But why and how everyone dies. Now, there's a mystery worth solving. Probably the biggest mystery there is.</span>
-
-#### So how do we do spoilers?
-
-```html
-<span class="spoiler">My hidden paragraph here.</span>
-```
+Maecenas at sagittis mi, et cursus justo. Maecenas nisi eros, feugiat id sapien quis, sollicitudin tincidunt nulla. Phasellus vitae facilisis lacus, non interdum purus. Phasellus eget risus libero. Morbi sed varius purus. Nullam vel ullamcorper diam. Quisque metus nulla, posuere id risus id, egestas suscipit tellus. Aenean blandit mauris aliquet nibh pellentesque, vitae sodales libero rutrum. Duis vehicula eu mauris id mollis. Maecenas sagittis ante at elit mollis, non fermentum sapien vulputate. Mauris egestas diam ante. Mauris lobortis magna ligula, eget dapibus ipsum tempor a. Sed feugiat volutpat neque in commodo. Sed erat felis, mattis nec lacus quis, condimentum condimentum eros. Nullam lectus orci, feugiat in mattis eu, suscipit quis nunc. Aenean et dui aliquam, consectetur ante non, euismod nibh.
