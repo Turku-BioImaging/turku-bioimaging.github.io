@@ -3,7 +3,7 @@ name: "Image Data Team | Turku Bioimaging"
 title: "Image Data Team - Turku Bioimaging"
 description: "We are a dedicated service for image data management and analysis operating under Turku Bioimaging."
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/ub.png'
 # baseurl: '/'
 # google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
