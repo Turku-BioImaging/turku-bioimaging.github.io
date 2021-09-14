@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Let's test spoilers"
-author: sal
-categories: [ Jekyll, tutorial ]
+title:  "Lipid 3D Volume Analysis"
+author: joanna
+categories: [ project ]
 image: assets/images/12.jpg
+description: "Aenean vel cursus justo, eu semper nisl. Nullam fringilla arcu id rutrum tristique."
 featured: true
 hidden: true
 ---
