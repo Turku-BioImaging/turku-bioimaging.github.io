@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lipid droplet segmentation"
+title:  "2D-3D Segmentation"
 author: junel
 categories: [ project ]
 tags: []
