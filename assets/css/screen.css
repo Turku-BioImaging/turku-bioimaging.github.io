@@ -305,7 +305,9 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #00aeef;
 }
 
 .mainheading h1.posttitle {
