@@ -33,6 +33,7 @@ authors:
   dado:
     name: Dado Tokic
     display_name: Dado
+    avatar: 'assets/images/avatar.png'
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: dado.tokic@abo.fi
     web: https://www.bioimaging.fi
@@ -41,6 +42,7 @@ authors:
   pasi:
     name: Pasi Kankaanpää
     display_name: Pasi
+    avatar: 'assets/images/avatar.png'
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: pkankaan@abo.fi
     web: https://www.bioimaging.fi
