@@ -1,5 +1,5 @@
 # Site
-name: "Image Data Team | Turku Bioimaging"
+name: "Turku Bioimaging Image Data Team (TBI-IDAT)"
 title: "Image Data Team - Turku Bioimaging"
 description: "We are a dedicated service for image data management and analysis operating under Turku Bioimaging."
 logo: 'assets/images/logo.png'
@@ -16,7 +16,7 @@ authors:
   junel:
     name: Junel Solis
     display_name: Junel
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    gravatar: 0a6f0b43162249d6de6a5db04887120f
     email: junel.solis@abo.fi
     web: https://www.bioimaging.fi
     twitter: https://twitter.com/junelsolis
