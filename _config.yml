@@ -30,6 +30,22 @@ authors:
     web: https://www.bioimaging.fi
     twitter: https://twitter.com/JwPylvanainen
     description: 
+  dado:
+    name: Dado Tokic
+    display_name: Dado
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: dado.tokic@abo.fi
+    web: https://www.bioimaging.fi
+    # twitter: https://twitter.com/junelsolis
+    description: 
+  pasi:
+    name: Pasi Kankaanpää
+    display_name: Pasi
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: pkankaan@abo.fi
+    web: https://www.bioimaging.fi
+    # twitter: https://twitter.com/junelsolis
+    description: 
 
 # Plugins
 plugins:
