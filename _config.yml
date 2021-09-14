@@ -13,7 +13,7 @@ permalink: /:title/
 
 # Authors
 authors:
-  Junel Solis:
+  junel:
     name: Junel Solis
     display_name: Junel
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
@@ -21,7 +21,7 @@ authors:
     web: https://www.bioimaging.fi
     twitter: https://twitter.com/junelsolis
     description: 
-  Joanna Pylvänäinen:
+  joanna:
     name: Joanna Pylvänäinen
     display_name: Joanna    
     avatar: 'assets/images/avatar.png'
