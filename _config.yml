@@ -16,7 +16,7 @@ authors:
   junel:
     name: Junel Solis
     display_name: Junel
-    gravatar: 0a6f0b43162249d6de6a5db04887120f
+    gravatar: d9a9e7f53d61e12ef933d846da67ff7a
     email: junel.solis@abo.fi
     web: https://www.bioimaging.fi
     twitter: https://twitter.com/junelsolis
@@ -24,8 +24,8 @@ authors:
   joanna:
     name: Joanna Pylvänäinen
     display_name: Joanna    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    # avatar: 'assets/images/avatar.png'
+    # gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: joanna.pylvanainen@abo.fi
     web: https://www.bioimaging.fi
     twitter: https://twitter.com/JwPylvanainen
@@ -33,8 +33,8 @@ authors:
   dado:
     name: Dado Tokic
     display_name: Dado
-    avatar: 'assets/images/avatar.png'
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    # avatar: 'assets/images/avatar.png'
+    # gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: dado.tokic@abo.fi
     web: https://www.bioimaging.fi
     # twitter: https://twitter.com/junelsolis
@@ -42,8 +42,8 @@ authors:
   pasi:
     name: Pasi Kankaanpää
     display_name: Pasi
-    avatar: 'assets/images/avatar.png'
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    # avatar: 'assets/images/avatar.png'
+    # gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: pkankaan@abo.fi
     web: https://www.bioimaging.fi
     # twitter: https://twitter.com/junelsolis
