@@ -4,7 +4,7 @@ title:  "2D-3D Segmentation"
 author: junel
 categories: [ project ]
 tags: []
-image: assets/images/11.jpg
+image: assets/images/logo.svg
 description: "Vestibulum aliquet congue leo sit amet consequat. Nulla facilisi. Aenean vitae ipsum diam."
 featured: true
 hidden: true

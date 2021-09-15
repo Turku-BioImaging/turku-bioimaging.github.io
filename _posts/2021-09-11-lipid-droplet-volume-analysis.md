@@ -3,7 +3,7 @@ layout: post
 title:  "Lipid 3D Volume Analysis"
 author: joanna
 categories: [ project ]
-image: assets/images/12.jpg
+image: assets/images/logo.svg
 description: "Aenean vel cursus justo, eu semper nisl. Nullam fringilla arcu id rutrum tristique."
 featured: true
 hidden: true
