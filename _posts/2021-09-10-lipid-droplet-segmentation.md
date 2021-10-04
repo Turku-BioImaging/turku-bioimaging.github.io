@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2D-3D Segmentation"
+title:  "Test project"
 author: junel
 categories: [ project ]
 tags: []
