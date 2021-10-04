@@ -2,7 +2,8 @@
 layout: default
 title: Home
 ---
-
+main content test
+{% comment %} 
 {% if page.url == "/" %}
 
 <!-- Featured
@@ -26,11 +27,11 @@ title: Home
     </div>
 </section>
 
-{% endif %}
+{% endif %} {% endcomment %}
 
 <!-- Posts Index
 ================================================== -->
-<section class="recent-posts">
+{% comment %} <section class="recent-posts">
 
     <div class="section-title">
 
@@ -48,14 +49,14 @@ title: Home
 
     </div>
 
-</section>
+</section> {% endcomment %}
 
 <!-- Pagination
 ================================================== -->
-<div class="bottompagination">
+{% comment %} <div class="bottompagination">
 <div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
     {% include pagination.html %}
 </span>
-</div>
+</div> {% endcomment %}
 
