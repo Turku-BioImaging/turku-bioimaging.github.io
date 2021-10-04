@@ -3,7 +3,7 @@ name: Build and deploy Jekyll 4.2 site to GitHub Pages
 on:
   push:
     branches:
-      - ci-build-jekyll-4
+      - main
 
 jobs:
   github-pages:
