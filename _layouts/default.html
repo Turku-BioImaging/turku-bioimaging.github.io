@@ -57,8 +57,15 @@
   <body class="{{layout}}">
     <!-- defer loading of font and font awesome -->
     <noscript id="deferred-styles">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:wght@300&display=swap"
+        rel="stylesheet"
+      />
+
+      <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
         rel="stylesheet"
       />
       <link
@@ -202,7 +209,8 @@
 
       <!-- Categories Jumbotron
 ================================================== -->
-      {% comment %} <div class="jumbotron fortags">
+      {% comment %}
+      <div class="jumbotron fortags">
         <div class="d-md-flex h-100">
           <div class="col-md-4 transpdark align-self-center text-center h-100">
             <div
@@ -231,7 +239,8 @@
             {% endfor %} {% endif %} {% assign categories_list = nil %}
           </div>
         </div>
-      </div> {% endcomment %}
+      </div>
+      {% endcomment %}
 
       <!-- Begin Footer
 ================================================== -->
