@@ -7,20 +7,18 @@
     <link rel="icon" href="{{ site.baseurl }}/assets/images/ub.png" />
     <title>{{ page.title }} | {{site.name}}</title>
     {% seo %}
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel='stylesheet' href="{{ site.baseurl }}/assets/css/main.css" />
   </head>
   <body>
-    <div id="idat">{{ content }}</div>
+    <div id="idat">
+      <navigation-bar></navigation-bar>
+      <div>
+        {{ content }}
+      </div>
+    </div>
 
     {% if site.lazyimages == "enabled" %}
     <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
