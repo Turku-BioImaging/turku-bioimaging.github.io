@@ -301,6 +301,8 @@ span.post-read-more a:hover {
 
 .mainheading h1.sitetitle {
     font-family: 'Raleway', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    font-weight: 900;
     text-transform: uppercase;
     color: #00aeef;
 }
@@ -327,7 +329,9 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: Merriweather;
+    /* font-family: Merriweather; */
+    font-family: 'Lato';
+    font-weight: 300;
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
