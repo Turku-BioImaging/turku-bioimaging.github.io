@@ -1,0 +1,28 @@
+{
+  "name": "turku-bioimaging.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.3.7",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.9",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turku-Bioimaging/turku-bioimaging.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Turku-Bioimaging/turku-bioimaging.github.io/issues"
+  },
+  "homepage": "https://github.com/Turku-Bioimaging/turku-bioimaging.github.io#readme"
+}
