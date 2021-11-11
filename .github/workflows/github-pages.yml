@@ -18,3 +18,4 @@ jobs:
         with:
           token: ${{ secrets.BUILD_TOKEN }}
           target_branch: "prod"
+      - run: NODE_ENV=production JEKYLL_ENV=production bundle exec jekyll build
