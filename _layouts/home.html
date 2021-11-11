@@ -5,6 +5,13 @@
     <title>{{ site.title }}</title>
   </head>
   <body>
-    home layout
+    <div class="home-layout">
+      {% include navbar.html %}
+      <div class="content-wrapper">
+        <section class="banner-section">bannersection</section>
+        <section class="main-content container mx-auto">main content</section>
+        {% include footer.html %}
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,19 @@
+div.home-layout {
+  width: 100vw;
+  height: 100vh;
+  @apply flex flex-col;
+
+  div.content-wrapper {
+    @apply flex flex-col flex-1;
+    section.banner-section {
+      height: 65vh;
+      background: url("/assets/images/temporary_splash.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    section.main-content {
+      @apply flex-1;
+    }
+  }
+}
