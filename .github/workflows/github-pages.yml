@@ -11,6 +11,10 @@ jobs:
     steps:
       - name: Setup
         uses: actions/checkout@v2
+      - name: 💎 setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0 # can change this to 2.7 or whatever version you prefer
       - name: Install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
       - name: 🚀 deploy
