@@ -16,7 +16,7 @@ div.home-layout {
     }
 
     div.main-content {
-      @apply flex-1 px-6 py-20;
+      @apply flex-1 px-6 py-24;
 
       section {
         h1 {
@@ -30,11 +30,12 @@ div.home-layout {
         }
 
         div.feature-box-wrapper {
-          @apply grid grid-cols-2 gap-4;
+          @apply grid grid-cols-2 gap-8;
           div.feature-box {
-            @apply w-auto h-48 bg-grey-200;
+            @apply w-auto h-48 bg-grey-100;
             @apply flex flex-col items-center justify-center relative;
             overflow: hidden;
+            cursor: pointer;
 
             img {
               @apply absolute left-0 right-0 top-0 bottom-0;
@@ -48,13 +49,27 @@ div.home-layout {
               @apply z-20;
               @apply transition duration-200 ease-out;
               background-color: transparentize(rgb(56, 189, 248), 0.25);
-              opacity: 1;
             }
 
             &:hover {
               div.color-overlay {
-                opacity: 0;
+                background-color: transparentize(rgb(56, 189, 248), 0.75);
                 @apply transition duration-200 ease-out;
+              }
+            }
+
+            div.text-box {
+              @apply absolute z-30 flex flex-col items-center justify-center;
+              @apply left-0 right-0 top-0 bottom-0;
+
+              h2 {
+                @apply text-lg uppercase text-white;
+                @apply border-b-2 border-blue-400 pb-2 mb-3;
+                width: fit-content;
+              }
+
+              p {
+                @apply text-grey-300 text-sm;
               }
             }
           }
