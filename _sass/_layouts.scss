@@ -28,6 +28,37 @@ div.home-layout {
         p {
           @apply text-lg leading-8 text-grey-600;
         }
+
+        div.feature-box-wrapper {
+          @apply grid grid-cols-2 gap-4;
+          div.feature-box {
+            @apply w-auto h-48 bg-grey-200;
+            @apply flex flex-col items-center justify-center relative;
+            overflow: hidden;
+
+            img {
+              @apply absolute left-0 right-0 top-0 bottom-0;
+              @apply z-10;
+              object-fit: cover;
+              object-position: center;
+            }
+
+            div.color-overlay {
+              @apply absolute left-0 right-0 top-0 bottom-0;
+              @apply z-20;
+              @apply transition duration-200 ease-out;
+              background-color: transparentize(rgb(56, 189, 248), 0.25);
+              opacity: 1;
+            }
+
+            &:hover {
+              div.color-overlay {
+                opacity: 0;
+                @apply transition duration-200 ease-out;
+              }
+            }
+          }
+        }
       }
     }
   }
