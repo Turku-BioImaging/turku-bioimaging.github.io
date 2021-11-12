@@ -1,3 +1,15 @@
 footer {
   @apply bg-grey-100 py-12;
+
+  ul.social-list {
+    @apply flex items-center mt-8 text-lg;
+
+    a {
+      @apply text-grey-600;
+    }
+
+    a:hover {
+      @apply text-blue-400;
+    }
+  }
 }
