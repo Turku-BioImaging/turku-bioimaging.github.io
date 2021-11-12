@@ -13971,15 +13971,21 @@ h1, h2, h3, h4, h5 { font-family: Poppins,sans-serif; }
 
 a, h1, h2, h3, h4, h5 { --tw-text-opacity:1; color: rgba(56, 189, 248, var(--tw-text-opacity)); }
 
-div.navbar { --tw-border-opacity:1; --tw-bg-opacity:1; background-color: rgba(255, 255, 255, var(--tw-bg-opacity)); border-bottom-width: 1px; border-color: rgba(229, 231, 235, var(--tw-border-opacity)); left: 0; position: -webkit-sticky; position: sticky; right: 0; top: 0; }
+div.navbar { --tw-bg-opacity:1; background-color: rgba(255, 255, 255, var(--tw-bg-opacity)); left: 0; position: -webkit-sticky; position: sticky; right: 0; top: 0; }
 
-div.navbar nav { align-items: center; display: flex; justify-content: space-between; padding-bottom: 1rem; padding-top: 1rem; }
+div.navbar nav { align-items: center; display: flex; justify-content: space-between; }
 
 div.navbar nav h5 { letter-spacing: .05em; text-transform: uppercase; }
 
 div.navbar nav ul { align-items: center; display: flex; justify-content: flex-end; }
 
-div.navbar nav ul li { margin-left: 1rem; }
+div.navbar nav ul li { align-items: center; display: flex; height: 100%; transition-duration: .15s; transition-duration: .2s; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+
+div.navbar nav ul li a { --tw-text-opacity:1; align-items: center; color: rgba(75, 85, 99, var(--tw-text-opacity)); display: flex; height: 100%; justify-content: center; padding-left: 2rem; padding-right: 2rem; transition: inherit; }
+
+div.navbar nav ul li:hover { --tw-bg-opacity:1; background-color: rgba(125, 211, 252, var(--tw-bg-opacity)); transition-duration: .15s; transition-duration: .2s; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+
+div.navbar nav ul li:hover a { --tw-text-opacity:1; color: rgba(55, 65, 81, var(--tw-text-opacity)); transition: inherit; }
 
 div.home-layout { display: flex; flex-direction: column; height: 100vh; overflow-x: hidden; position: relative; scroll-behavior: smooth; width: 100vw; }
 
