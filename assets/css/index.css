@@ -13991,6 +13991,14 @@ div.home-layout div.content-wrapper section.main-content { flex: 1 1 0%; padding
 
 footer { --tw-bg-opacity:1; background-color: rgba(243, 244, 246, var(--tw-bg-opacity)); padding-bottom: 3rem; padding-top: 3rem; }
 
+footer ul.social-list { align-items: center; display: flex; font-size: 1.125rem; line-height: 1.75rem; margin-top: 2rem; }
+
+footer ul.social-list a { color: rgba(75, 85, 99, var(--tw-text-opacity)); }
+
+footer ul.social-list a, footer ul.social-list a:hover { --tw-text-opacity:1; }
+
+footer ul.social-list a:hover { color: rgba(56, 189, 248, var(--tw-text-opacity)); }
+
 @media (min-width: 640px) { .sm\:container { width: 100%; } }
 
 @media (min-width: 640px) and (min-width: 640px) { .sm\:container { max-width: 640px; } }
