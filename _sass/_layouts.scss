@@ -17,6 +17,18 @@ div.home-layout {
 
     div.main-content {
       @apply flex-1 px-6 py-12;
+
+      section {
+        h1 {
+          @apply uppercase text-2xl tracking-wide text-grey-700;
+          @apply border-b-2 border-blue-400 pb-2 mb-6;
+          width: fit-content;
+        }
+
+        p {
+          @apply text-lg leading-8 text-grey-600;
+        }
+      }
     }
   }
 }
