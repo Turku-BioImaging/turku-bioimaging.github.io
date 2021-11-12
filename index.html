@@ -17,16 +17,18 @@
   <body>
     <div class="home-layout">
       <div class="navbar">
-  <div class="container mx-auto">
+  <div class="container mx-auto px-6">
     <nav>
       <div class="leading-tight">
-        <h5>Image Data Team</h5>
+        <h5 class="text-lg">Image Data Team</h5>
         <p class="text-grey-600 text-sm">Turku BioImaging</p>
       </div>
       <ul>
-        <li>Projects</li>
-        <li>About</li>
-        <li>bioimaging.fi</li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li class="text-blue-400">
+          <a href="https://bioimaging.fi" target="_blank">bioimaging.fi</a>
+        </li>
       </ul>
     </nav>
   </div>
@@ -64,8 +66,18 @@
           </div>
         </section>
         <section class="main-content container mx-auto">main content</section>
-        <footer>
-  <div class="container mx-auto">footer content</div>
+        <footer class="border-t border-grey-200">
+  <div class="container mx-auto px-6 text-grey-600">
+    <div class="flex">
+      <div class="w-1/2">
+        <p>
+          <strong>Contact us</strong><br />Email: image-data@bioimaging.fi<br />
+          Main Site: www.bioimaging.fi
+        </p>
+      </div>
+      <div class="w-1/2">sponsors, partners, etc.</div>
+    </div>
+  </div>
 </footer>
 
       </div>

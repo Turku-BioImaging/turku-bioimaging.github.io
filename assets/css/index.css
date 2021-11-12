@@ -10952,6 +10952,8 @@ body { --tw-text-opacity:1; color: rgba(31, 41, 55, var(--tw-text-opacity)); fon
 
 h1, h2, h3, h4, h5 { --tw-text-opacity:1; color: rgba(56, 189, 248, var(--tw-text-opacity)); font-family: Poppins,sans-serif; }
 
+a:hover { text-decoration: underline; }
+
 div.navbar { --tw-border-opacity:1; --tw-bg-opacity:1; background-color: rgba(255, 255, 255, var(--tw-bg-opacity)); border-bottom-width: 1px; border-color: rgba(229, 231, 235, var(--tw-border-opacity)); left: 0; position: -webkit-sticky; position: sticky; right: 0; top: 0; }
 
 div.navbar nav { align-items: center; display: flex; justify-content: space-between; padding-bottom: 1rem; padding-top: 1rem; }
@@ -10968,9 +10970,9 @@ div.home-layout div.content-wrapper { display: flex; flex: 1 1 0%; flex-directio
 
 div.home-layout div.content-wrapper section.banner-section { background: url(/assets/images/temporary_splash.jpg); background-position: 50%; background-size: cover; height: 65vh; }
 
-div.home-layout div.content-wrapper section.main-content { flex: 1 1 0%; }
+div.home-layout div.content-wrapper section.main-content { flex: 1 1 0%; padding: 3rem 1.5rem; }
 
-footer { --tw-bg-opacity:1; background-color: rgba(229, 231, 235, var(--tw-bg-opacity)); padding-bottom: 2rem; padding-top: 2rem; }
+footer { --tw-bg-opacity:1; background-color: rgba(243, 244, 246, var(--tw-bg-opacity)); padding-bottom: 3rem; padding-top: 3rem; }
 
 @media (min-width: 640px) { .sm\:container { width: 100%; } }
 
