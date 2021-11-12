@@ -30,3 +30,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - package-lock.json
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
