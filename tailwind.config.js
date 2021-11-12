@@ -19,7 +19,6 @@ module.exports = {
       blue: colors.sky,
       yellow: colors.amber,
     },
-    extend: {},
   },
   variants: {},
   //   plugins: [require("@tailwindcss/typography")],

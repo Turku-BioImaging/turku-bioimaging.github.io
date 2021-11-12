@@ -1,6 +1,6 @@
 div.navbar {
   nav {
-    @apply flex items-center justify-between py-4;
+    @apply flex items-center justify-between;
 
     h5 {
       @apply uppercase tracking-wider;
@@ -9,11 +9,26 @@ div.navbar {
     ul {
       @apply flex items-center justify-end;
       li {
-        @apply ml-4;
+        @apply h-full flex items-center;
+        @apply transition duration-200;
+
+        a {
+          @apply px-8 h-full flex items-center justify-center text-grey-600;
+          transition: inherit;
+        }
+      }
+
+      li:hover {
+        @apply bg-blue-300;
+        @apply transition duration-200;
+        a {
+          @apply text-grey-700;
+          transition: inherit;
+        }
       }
     }
   }
 
   @apply sticky left-0 right-0 top-0;
-  @apply bg-white border-b border-grey-200;
+  @apply bg-white;
 }
