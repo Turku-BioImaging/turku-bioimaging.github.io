@@ -13991,9 +13991,9 @@ div.home-layout { display: flex; flex-direction: column; height: 100vh; overflow
 
 div.home-layout div.content-wrapper { display: flex; flex: 1 1 0%; flex-direction: column; }
 
-div.home-layout div.content-wrapper section.banner-section { background: url(/assets/images/temporary_splash.jpg); background-position: 50%; background-size: cover; height: 65vh; }
+div.home-layout div.content-wrapper div.banner-div { background: url(/assets/images/temporary_splash.jpg); background-position: 50%; background-size: cover; height: 65vh; }
 
-div.home-layout div.content-wrapper section.main-content { flex: 1 1 0%; padding: 3rem 1.5rem; }
+div.home-layout div.content-wrapper div.main-content { flex: 1 1 0%; padding: 3rem 1.5rem; }
 
 footer { --tw-bg-opacity:1; background-color: rgba(243, 244, 246, var(--tw-bg-opacity)); padding-bottom: 3rem; padding-top: 3rem; }
 

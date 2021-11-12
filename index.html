@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link
+  rel="icon"
+  type="image/svg+xml"
+  href="/assets/images/logo_tbi_square.svg"
+/>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
@@ -45,7 +50,7 @@
 </div>
 
       <div class="content-wrapper">
-        <section class="banner-section">
+        <div class="banner-div">
           <div
             class="
               container
@@ -74,11 +79,57 @@
               </li>
             </ul>
           </div>
-        </section>
-        <section class="main-content container mx-auto">
-          list of projects goes here, as well as info about data storage/omero
-          server
-        </section>
+        </div>
+        <div class="main-content container mx-auto">
+          <section class="projects-section grid grid-cols-2 gap-8">
+            <div>
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+            </div>
+            <div>
+              <h1>Image Analysis Projects</h1>
+              <p class="w-2/3">
+                We provide analysis support for researchers to extract
+                meaningful information from their image data using a variety of
+                software tools, artificial intelligence, programming, and
+                automation.
+              </p>
+            </div>
+          </section>
+          <section class="segmentation-section grid grid-cols-2 gap-8 mt-12">
+            <div>
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+            </div>
+            <div>
+              <h1>Segmentation</h1>
+              <p class="w-2/3">
+                With image analysis, if an image can be segmented then it can be
+                quantified. We employ a variety of tools that produce
+                high-quality reproducible segmentation of image data.
+              </p>
+            </div>
+          </section>
+          <section class="data-storage-section grid grid-cols-2 gap-8 mt-12">
+            <div>
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+            </div>
+            <div>
+              <h1>Data Storage</h1>
+              <p class="w-2/3">
+                We maintain a production-level OMERO servers for storage of
+                image data for research and educational use.
+              </p>
+            </div>
+          </section>
+        </div>
         <footer class="border-t border-grey-200">
   <div class="container mx-auto px-6 text-grey-600">
     <div class="flex">
