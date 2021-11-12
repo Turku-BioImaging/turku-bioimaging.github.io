@@ -8,14 +8,14 @@ div.home-layout {
 
   div.content-wrapper {
     @apply flex flex-col flex-1;
-    section.banner-section {
+    div.banner-div {
       height: 65vh;
       background: url("/assets/images/temporary_splash.jpg");
       background-size: cover;
       background-position: center;
     }
 
-    section.main-content {
+    div.main-content {
       @apply flex-1 px-6 py-12;
     }
   }

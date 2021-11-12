@@ -8,7 +8,7 @@
     <div class="home-layout">
       {% include navbar.html %}
       <div class="content-wrapper">
-        <section class="banner-section">
+        <div class="banner-div">
           <div
             class="
               container
@@ -37,11 +37,57 @@
               </li>
             </ul>
           </div>
-        </section>
-        <section class="main-content container mx-auto">
-          list of projects goes here, as well as info about data storage/omero
-          server
-        </section>
+        </div>
+        <div class="main-content container mx-auto">
+          <section class="projects-section grid grid-cols-2 gap-8">
+            <div>
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+            </div>
+            <div>
+              <h1>Image Analysis Projects</h1>
+              <p class="w-2/3">
+                We provide analysis support for researchers to extract
+                meaningful information from their image data using a variety of
+                software tools, artificial intelligence, programming, and
+                automation.
+              </p>
+            </div>
+          </section>
+          <section class="segmentation-section grid grid-cols-2 gap-8 mt-12">
+            <div>
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+            </div>
+            <div>
+              <h1>Segmentation</h1>
+              <p class="w-2/3">
+                With image analysis, if an image can be segmented then it can be
+                quantified. We employ a variety of tools that produce
+                high-quality reproducible segmentation of image data.
+              </p>
+            </div>
+          </section>
+          <section class="data-storage-section grid grid-cols-2 gap-8 mt-12">
+            <div>
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+            </div>
+            <div>
+              <h1>Data Storage</h1>
+              <p class="w-2/3">
+                We maintain a production-level OMERO servers for storage of
+                image data for research and educational use.
+              </p>
+            </div>
+          </section>
+        </div>
         {% include footer.html %}
       </div>
     </div>
