@@ -13995,6 +13995,10 @@ div.home-layout div.content-wrapper div.banner-div { background: url(/assets/ima
 
 div.home-layout div.content-wrapper div.main-content { flex: 1 1 0%; padding: 3rem 1.5rem; }
 
+div.home-layout div.content-wrapper div.main-content section h1 { --tw-text-opacity:1; --tw-border-opacity:1; border-bottom-width: 2px; border-color: rgba(56, 189, 248, var(--tw-border-opacity)); color: rgba(55, 65, 81, var(--tw-text-opacity)); font-size: 1.5rem; letter-spacing: .025em; line-height: 2rem; margin-bottom: 1.5rem; padding-bottom: .5rem; text-transform: uppercase; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; }
+
+div.home-layout div.content-wrapper div.main-content section p { --tw-text-opacity:1; color: rgba(75, 85, 99, var(--tw-text-opacity)); font-size: 1.125rem; line-height: 1.75rem; line-height: 2rem; }
+
 footer { --tw-bg-opacity:1; background-color: rgba(243, 244, 246, var(--tw-bg-opacity)); padding-bottom: 3rem; padding-top: 3rem; }
 
 footer ul.social-list { align-items: center; display: flex; font-size: 1.125rem; line-height: 1.75rem; margin-top: 2rem; }
