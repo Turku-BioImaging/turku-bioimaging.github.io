@@ -41,10 +41,12 @@
         <div class="main-content container mx-auto">
           <section class="projects-section grid grid-cols-2 gap-24">
             <div class="feature-box-wrapper">
+              {% assign featured_posts = site.posts | where: 'featured', true %}
+              {% for post in featured_posts %}
               <div class="feature-box">
                 <div class="text-box">
-                  <h2>Project name</h2>
-                  <p>Fiji, Docker, Python</p>
+                  <h2>{{ post.title }}</h2>
+                  <p>{{ post.tags }}</p>
                 </div>
                 <img
                   src="https://source.unsplash.com/800x600?abstract"
@@ -52,34 +54,9 @@
                 />
                 <div class="color-overlay"></div>
               </div>
-              <div class="feature-box">
-                <div class="text-box">
-                  <h2>Project name</h2>
-                  <p>Fiji, Docker, Python</p>
-                </div>
-                <img src="https://source.unsplash.com/800x600?abstract"" alt=""
-                />
-                <div class="color-overlay"></div>
-              </div>
-              <div class="feature-box">
-                <div class="text-box">
-                  <h2>Project name</h2>
-                  <p>Fiji, Docker, Python</p>
-                </div>
-                <img src="https://source.unsplash.com/800x600?abstract"" alt=""
-                />
-                <div class="color-overlay"></div>
-              </div>
-              <div class="feature-box">
-                <div class="text-box">
-                  <h2>Project name</h2>
-                  <p>Fiji, Docker, Python</p>
-                </div>
-                <img src="https://source.unsplash.com/800x600?abstract"" alt=""
-                />
-                <div class="color-overlay"></div>
-              </div>
+              {% endfor %}
             </div>
+
             <div>
               <h1>Image Analysis Projects</h1>
               <p class="w-2/3">
