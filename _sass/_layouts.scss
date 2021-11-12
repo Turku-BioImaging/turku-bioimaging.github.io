@@ -13,7 +13,7 @@ div.home-layout {
     }
 
     section.main-content {
-      @apply flex-1;
+      @apply flex-1 px-6 py-12;
     }
   }
 }
