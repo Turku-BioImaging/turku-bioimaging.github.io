@@ -13993,7 +13993,7 @@ div.home-layout div.content-wrapper { display: flex; flex: 1 1 0%; flex-directio
 
 div.home-layout div.content-wrapper div.banner-div { background: url(/assets/images/temporary_splash.jpg); background-position: 50%; background-size: cover; height: 65vh; }
 
-div.home-layout div.content-wrapper div.main-content { flex: 1 1 0%; padding: 3rem 1.5rem; }
+div.home-layout div.content-wrapper div.main-content { flex: 1 1 0%; padding: 5rem 1.5rem; }
 
 div.home-layout div.content-wrapper div.main-content section h1 { --tw-text-opacity:1; --tw-border-opacity:1; border-bottom-width: 2px; border-color: rgba(56, 189, 248, var(--tw-border-opacity)); color: rgba(55, 65, 81, var(--tw-text-opacity)); font-size: 1.5rem; letter-spacing: .025em; line-height: 2rem; margin-bottom: 1.5rem; padding-bottom: .5rem; text-transform: uppercase; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; }
 
@@ -14008,6 +14008,8 @@ footer ul.social-list a { color: rgba(75, 85, 99, var(--tw-text-opacity)); }
 footer ul.social-list a, footer ul.social-list a:hover { --tw-text-opacity:1; }
 
 footer ul.social-list a:hover { color: rgba(56, 189, 248, var(--tw-text-opacity)); }
+
+footer div.partners { align-items: center; display: flex; }
 
 @media (min-width: 640px) { .sm\:container { width: 100%; } }
 
