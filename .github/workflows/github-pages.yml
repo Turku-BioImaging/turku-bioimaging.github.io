@@ -14,7 +14,12 @@ jobs:
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0 # can change this to 2.7 or whatever version you prefer
+          ruby-version: 3.0
+      - name: Install node modules
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - run: npm install
       - name: Install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
       - name: 🚀 deploy
