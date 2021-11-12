@@ -1,4 +1,5 @@
 div.navbar {
+  @apply border-b border-grey-200;
   nav {
     @apply flex items-center justify-between;
 
@@ -19,7 +20,13 @@ div.navbar {
       }
 
       li:hover {
-        @apply bg-blue-300;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 1) 0%,
+          rgba(121, 211, 252, 1) 100%
+        );
+
         @apply transition duration-200;
         a {
           @apply text-grey-700;
