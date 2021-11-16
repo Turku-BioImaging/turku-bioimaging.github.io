@@ -14017,6 +14017,8 @@ div.home-layout div.content-wrapper div.main-content section div.feature-box-wra
 
 div.home-layout div.content-wrapper div.main-content section div.feature-box-wrapper div.feature-box div.text-box p { --tw-text-opacity:1; color: rgba(209, 213, 219, var(--tw-text-opacity)); font-size: .875rem; line-height: 1.25rem; }
 
+div.home-layout div.content-wrapper div.main-content section.data-storage-section .server-box { --tw-bg-opacity:1; align-items: center; background-color: rgba(56, 189, 248, var(--tw-bg-opacity)); display: flex; flex-direction: column; height: 8rem; justify-content: center; width: 8rem; }
+
 footer { --tw-bg-opacity:1; background-color: rgba(243, 244, 246, var(--tw-bg-opacity)); padding-bottom: 3rem; padding-top: 3rem; }
 
 footer ul.social-list { align-items: center; display: flex; font-size: 1.125rem; line-height: 1.75rem; margin-top: 2rem; }
