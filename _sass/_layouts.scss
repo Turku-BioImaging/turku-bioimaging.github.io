@@ -75,6 +75,13 @@ div.home-layout {
           }
         }
       }
+
+      section.data-storage-section {
+        .server-box {
+          @apply w-32 h-32 flex items-center justify-center flex-col;
+          @apply bg-blue-400;
+        }
+      }
     }
   }
 }
