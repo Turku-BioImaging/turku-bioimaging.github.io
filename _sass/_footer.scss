@@ -1,19 +1,28 @@
 footer {
-  @apply bg-grey-100 py-12;
+  @apply bg-grey-100 py-6;
+  @screen lg {
+    @apply py-12;
+  }
 
-  ul.social-list {
-    @apply flex items-center mt-8 text-lg;
+  div.contact-us {
+    @apply flex flex-col items-center;
+    ul.social-list {
+      @apply flex items-center mt-8 text-lg;
 
-    a {
-      @apply text-grey-600;
-    }
+      a {
+        @apply text-grey-600;
+      }
 
-    a:hover {
-      @apply text-blue-400;
+      a:hover {
+        @apply text-blue-400;
+      }
     }
   }
 
   div.partners {
-    @apply flex items-center justify-end;
+    @apply flex items-center flex-wrap;
+    > a {
+      @apply w-full text-center mx-auto py-3 flex items-center justify-center;
+    }
   }
 }
