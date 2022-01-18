@@ -14029,7 +14029,7 @@ footer ul.social-list a, footer ul.social-list a:hover { --tw-text-opacity:1; }
 
 footer ul.social-list a:hover { color: rgba(56, 189, 248, var(--tw-text-opacity)); }
 
-footer div.partners { align-items: center; display: flex; }
+footer div.partners { align-items: center; display: flex; justify-content: flex-end; }
 
 @media (min-width: 640px) { .sm\:container { width: 100%; } }
 
