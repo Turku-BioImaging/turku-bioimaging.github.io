@@ -8,29 +8,7 @@
     <div class="home-layout">
       {% include navbar.html %}
       <div class="content-wrapper">
-        <div class="banner-div">
-          <div
-            class="container mx-auto h-full flex flex-col justify-center text-white"
-          >
-            <h1 class="text-white text-5xl text-center">
-              We work with image data
-            </h1>
-            <ul class="flex items-center justify-center mt-8">
-              <li class="mx-2 text-lg border border-white px-3 py-2">
-                Pre-processing
-              </li>
-              <li class="mx-2 text-lg border border-white px-3 py-2">
-                Segmentation
-              </li>
-              <li class="mx-2 text-lg border border-white px-3 py-2">
-                Analysis
-              </li>
-              <li class="mx-2 text-lg border border-white px-3 py-2">
-                Research&nbsp;Data&nbsp;Management
-              </li>
-            </ul>
-          </div>
-        </div>
+        {% include home_banner.html %}
         <div class="main-content container mx-auto">
           <section class="projects-section grid grid-cols-2 gap-24">
             <div class="feature-box-wrapper">

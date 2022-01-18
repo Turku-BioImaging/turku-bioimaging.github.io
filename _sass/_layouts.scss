@@ -9,10 +9,25 @@ div.home-layout {
   div.content-wrapper {
     @apply flex flex-col flex-1;
     div.banner-div {
+      @apply px-8;
+      @screen lg {
+        @apply px-0;
+      }
       height: 65vh;
       background: url("/assets/images/temporary_splash.jpg");
       background-size: cover;
       background-position: center;
+
+      ul {
+        li {
+          background: rgba(white, 0.1);
+          @apply w-full mt-2;
+
+          @screen lg {
+            @apply w-auto mx-2 mt-0;
+          }
+        }
+      }
     }
 
     div.main-content {
