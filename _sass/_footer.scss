@@ -6,6 +6,10 @@ footer {
 
   div.contact-us {
     @apply flex flex-col items-center;
+    @screen lg {
+      @apply items-start;
+    }
+
     ul.social-list {
       @apply flex items-center mt-8 text-lg;
 
@@ -20,9 +24,17 @@ footer {
   }
 
   div.partners {
-    @apply flex items-center flex-wrap;
+    @apply flex items-center;
+
     > a {
       @apply w-full text-center mx-auto py-3 flex items-center justify-center;
+    }
+
+    @screen lg {
+      @apply flex-wrap justify-end;
+      > a {
+        @apply w-auto py-0 mx-0;
+      }
     }
   }
 }
