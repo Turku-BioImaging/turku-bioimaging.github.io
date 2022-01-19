@@ -22,7 +22,7 @@
   <body>
     <div class="home-layout">
       <div class="navbar">
-  <div class="container mx-auto px-6">
+  <div class="container mx-auto px-3 lg:px-6 py-2 lg:py-0">
     <nav>
       <div class="flex items-center">
         <img
@@ -51,30 +51,23 @@
 
       <div class="content-wrapper">
         <div class="banner-div">
-          <div
-            class="container mx-auto h-full flex flex-col justify-center text-white"
-          >
-            <h1 class="text-white text-5xl text-center">
-              We work with image data
-            </h1>
-            <ul class="flex items-center justify-center mt-8">
-              <li class="mx-2 text-lg border border-white px-3 py-2">
-                Pre-processing
-              </li>
-              <li class="mx-2 text-lg border border-white px-3 py-2">
-                Segmentation
-              </li>
-              <li class="mx-2 text-lg border border-white px-3 py-2">
-                Analysis
-              </li>
-              <li class="mx-2 text-lg border border-white px-3 py-2">
-                Research&nbsp;Data&nbsp;Management
-              </li>
-            </ul>
-          </div>
-        </div>
+  <div class="container mx-auto h-full flex flex-col justify-center text-white">
+    <h1 class="text-white text-4xl lg:text-5xl text-center">
+      We work with <span class="whitespace-nowrap">image data</span>
+    </h1>
+    <ul class="flex items-center justify-center mt-8 flex-wrap">
+      <li class="text-lg border border-white px-3 py-2">Pre-processing</li>
+      <li class="text-lg border border-white px-3 py-2">Segmentation</li>
+      <li class="text-lg border border-white px-3 py-2">Analysis</li>
+      <li class="text-lg border border-white px-3 py-2">
+        Research&nbsp;Data&nbsp;Management
+      </li>
+    </ul>
+  </div>
+</div>
+
         <div class="main-content container mx-auto">
-          <section class="projects-section grid grid-cols-2 gap-24">
+          <section class="projects-section">
             <div class="feature-box-wrapper">
               
               
@@ -128,9 +121,9 @@
               
             </div>
 
-            <div>
+            <div class="text-wrapper">
               <h1>Image Analysis Projects</h1>
-              <p class="w-2/3">
+              <p class="w-full lg:w-2/3">
                 We provide analysis support for researchers to extract
                 meaningful information from their image data using a variety of
                 software tools, artificial intelligence, programming, and
@@ -139,17 +132,17 @@
             </div>
           </section>
           <hr class="my-24 border-grey-200" />
-          <section class="data-storage-section grid grid-cols-2 gap-24">
-            <div class="flex flex-col items-end">
+          <section class="data-storage-section">
+            <div class="flex flex-col items-start lg:items-end">
               <img
                 src="/assets/images/logo_omero.svg"
                 alt="OMERO logo"
-                class="h-8 w-auto"
+                class="h-6 lg:h-8 w-auto"
               />
               <img
                 src="/assets/images/logo_bioformats.svg"
                 alt="Bio-Formats logo"
-                class="h-8 w-auto mt-4"
+                class="h-6 lg:h-8 w-auto mt-4"
               />
               <!-- <div class="flex mt-4">
                 <div class="server-box">1</div>
@@ -158,7 +151,7 @@
             </div>
             <div>
               <h1>Research Data Management</h1>
-              <p class="w-2/3">
+              <p class="lg:w-2/3">
                 We maintain production-level OMERO servers for storage of image
                 data intended for research and educational use.
               </p>
@@ -167,8 +160,8 @@
         </div>
         <footer class="border-t border-grey-200">
   <div class="container mx-auto px-6 text-grey-600">
-    <div class="flex">
-      <div class="w-1/3">
+    <div class="block lg:flex">
+      <div class="w-full lg:w-1/3 contact-us">
         <p>
           <strong>Contact us</strong><br />Email
           <a href="mailto:image-data@bioimaging.fi"> image-data@bioimaging.fi</a
@@ -201,7 +194,7 @@
           </li>
         </ul>
       </div>
-      <div class="w-2/3 partners">
+      <div class="w-full lg:w-2/3 partners">
         <a href="https://abo.fi" target="_blank">
           <img
             src="/assets/images/logo_aau.png"
@@ -227,7 +220,7 @@
           <img
             src="/assets/images/logo_hct.png"
             alt="Health Campus Turku logo"
-            class="w-24 h-auto ml-6"
+            class="w-32 lg:w-24 h-auto ml-3 lg:ml-6 py-6"
           />
         </a>
       </div>
