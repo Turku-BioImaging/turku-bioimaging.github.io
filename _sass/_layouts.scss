@@ -92,9 +92,14 @@ div.home-layout {
       }
 
       section.data-storage-section {
+        @apply grid grid-cols-1 gap-12;
         .server-box {
           @apply w-32 h-32 flex items-center justify-center flex-col;
           @apply bg-blue-400;
+        }
+
+        @screen lg {
+          @apply grid-cols-2 gap-24;
         }
       }
     }
