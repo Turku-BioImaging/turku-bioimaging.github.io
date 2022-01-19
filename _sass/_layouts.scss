@@ -105,6 +105,7 @@ div.home-layout {
         }
 
         @screen lg {
+          @apply grid grid-cols-2 gap-24;
           div.feature-box-wrapper {
             order: 1;
           }
