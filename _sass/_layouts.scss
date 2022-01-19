@@ -43,9 +43,15 @@ div.home-layout {
         p {
           @apply text-lg leading-8 text-grey-600;
         }
+      }
 
+      section.projects-section {
+        @apply flex flex-col;
         div.feature-box-wrapper {
-          @apply grid grid-cols-2 gap-8;
+          @apply grid grid-cols-1 gap-8;
+          @screen lg {
+            @apply grid-cols-2;
+          }
           div.feature-box {
             @apply w-auto h-48 bg-grey-100;
             @apply flex flex-col items-center justify-center relative;
@@ -87,6 +93,24 @@ div.home-layout {
                 @apply text-grey-300 text-sm;
               }
             }
+          }
+        }
+
+        div.feature-box-wrapper {
+          order: 2;
+        }
+
+        div.text-wrapper {
+          order: 1;
+        }
+
+        @screen lg {
+          div.feature-box-wrapper {
+            order: 1;
+          }
+
+          div.text-wrapper {
+            order: 2;
           }
         }
       }
