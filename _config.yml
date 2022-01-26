@@ -16,9 +16,6 @@ sass:
   sass_dir: _sass
   style: compact
 
-# include:
-#   - node_modules/@fortawesom/fontawesome-free/webfonts
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
