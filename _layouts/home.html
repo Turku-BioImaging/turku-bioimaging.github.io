@@ -11,7 +11,7 @@
         {% include home_banner.html %}
         <div class="main-content container mx-auto">
           <section class="projects-section">
-            <div class="feature-box-wrapper">
+            <div class="masonry-grid">
               {% assign featured_posts = site.posts | where: 'featured', true %}
               {% for post in featured_posts %}
               <div class="feature-box">
@@ -28,7 +28,7 @@
               {% endfor %}
             </div>
 
-            <div class="text-wrapper">
+            <!-- <div class="text-wrapper">
               <h1>Image Analysis Projects</h1>
               <p class="w-full lg:w-2/3">
                 We provide analysis support for researchers to extract
@@ -36,7 +36,7 @@
                 software tools, artificial intelligence, programming, and
                 automation.
               </p>
-            </div>
+            </div> -->
           </section>
           <hr class="my-24 border-grey-200" />
           <section class="data-storage-section">
@@ -68,5 +68,15 @@
         {% include footer.html %}
       </div>
     </div>
+    <script>
+      var macyInstance = Macy({
+        container: ".masonry-grid",
+        margin: {
+          x: 25,
+          y: 25,
+        },
+        columns: 3,
+      })
+    </script>
   </body>
 </html>
