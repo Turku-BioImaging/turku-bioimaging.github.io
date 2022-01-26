@@ -73,7 +73,7 @@ div.home-layout {
               p.project-tags {
                 @apply flex items-center justify-start mt-4 flex-wrap;
                 span {
-                  @apply px-2 py-1 uppercase text-blue-100 text-xs border bg-blue-300 border-blue-200;
+                  @apply px-2 py-1 uppercase text-blue-100 text-xs border bg-blue-300 border-blue-200 tracking-widest;
                 }
               }
             }
