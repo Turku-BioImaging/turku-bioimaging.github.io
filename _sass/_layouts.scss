@@ -31,8 +31,6 @@ div.home-layout {
     }
 
     div.main-content {
-      @apply flex-1 px-6 py-24;
-
       section {
         h1 {
           @apply uppercase text-2xl tracking-wide text-grey-700;
@@ -46,72 +44,53 @@ div.home-layout {
       }
 
       section.projects-section {
-        @apply flex flex-col;
-        div.feature-box-wrapper {
-          @apply grid grid-cols-1 gap-8;
+        @screen lg {
+          @apply w-2/3 mx-auto py-12;
+        }
+        div.masonry-grid {
           @screen lg {
-            @apply grid-cols-2;
+            @apply px-6;
           }
-          div.feature-box {
-            @apply w-auto h-48 bg-grey-100;
-            @apply flex flex-col items-center justify-center relative;
-            overflow: hidden;
+
+          div.project-box {
+            @apply transition ease-in-out duration-200;
             cursor: pointer;
 
-            img {
-              @apply absolute left-0 right-0 top-0 bottom-0;
-              @apply z-10;
-              object-fit: cover;
-              object-position: center;
-            }
-
-            div.color-overlay {
-              @apply absolute left-0 right-0 top-0 bottom-0;
-              @apply z-20;
-              @apply transition duration-200 ease-out;
-              background-color: transparentize(rgb(56, 189, 248), 0.25);
-            }
-
-            &:hover {
-              div.color-overlay {
-                background-color: transparentize(rgb(56, 189, 248), 0.75);
-                @apply transition duration-200 ease-out;
-              }
-            }
-
-            div.text-box {
-              @apply absolute z-30 flex flex-col items-center justify-center;
-              @apply left-0 right-0 top-0 bottom-0;
-
+            div.project-description {
+              @apply p-6;
+              @apply bg-blue-400 text-white;
               h2 {
-                @apply text-lg uppercase text-white;
-                @apply border-b-2 border-blue-400 pb-2 mb-3;
-                width: fit-content;
+                @apply text-blue-50 uppercase text-xl tracking-wide;
+                transition: inherit;
               }
 
-              p {
-                @apply text-grey-300 text-sm;
+              p.text-description {
+                @apply tracking-normal text-sm text-grey-700;
+                @apply mt-4;
+              }
+
+              div.project-tags {
+                @apply flex items-center justify-start mt-4;
+                p {
+                  @apply px-2 py-1 uppercase text-blue-100 text-xs border bg-blue-300 border-blue-200;
+                }
+
+                p:not(:first-child) {
+                  @apply ml-2;
+                }
               }
             }
           }
-        }
 
-        div.feature-box-wrapper {
-          order: 2;
-        }
+          div.project-box:hover {
+            @apply transition ease-in-out duration-200;
 
-        div.text-wrapper {
-          order: 1;
-        }
-
-        @screen lg {
-          @apply grid grid-cols-2 gap-24;
-          div.feature-box-wrapper {
-            order: 1;
-          }
-
-          div.text-wrapper {
-            order: 2;
+            div.project-description {
+              h2 {
+                @apply text-white;
+                transition: inherit;
+              }
+            }
           }
         }
       }

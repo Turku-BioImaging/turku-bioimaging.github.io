@@ -9,21 +9,27 @@
       {% include navbar.html %}
       <div class="content-wrapper">
         {% include home_banner.html %}
-        <div class="main-content container mx-auto">
+        <div class="main-content">
           <section class="projects-section">
-            <div class="masonry-grid">
+            <div class="masonry-grid container mx-auto">
               {% assign featured_posts = site.posts | where: 'featured', true %}
               {% for post in featured_posts %}
-              <div class="feature-box">
-                <div class="text-box">
-                  <h2>{{ post.title }}</h2>
-                  <p>{{ post.tags }}</p>
-                </div>
+              <div class="project-box">
                 <img
-                  src="https://source.unsplash.com/640x480?abstract"
+                  src="/assets/project_images/{{ post.featured-image}}"
                   alt=""
                 />
-                <div class="color-overlay"></div>
+                <div class="project-description">
+                  <h2>{{ post.title }}</h2>
+                  <p class="text-description">{{ post.description }}</p>
+                  <div class="project-tags">
+                    {% for t in post.tags %}
+                    <p>{{ t }}</p>
+                    {% endfor %}
+                  </div>
+                </div>
+
+                <!-- <div class="color-overlay"></div> -->
               </div>
               {% endfor %}
             </div>
@@ -72,8 +78,8 @@
       var macyInstance = Macy({
         container: ".masonry-grid",
         margin: {
-          x: 25,
-          y: 25,
+          x: 45,
+          y: 45,
         },
         columns: 3,
       })
