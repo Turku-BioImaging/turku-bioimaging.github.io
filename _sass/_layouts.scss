@@ -69,14 +69,10 @@ div.home-layout {
                 @apply mt-4;
               }
 
-              div.project-tags {
-                @apply flex items-center justify-start mt-4;
-                p {
+              p.project-tags {
+                @apply flex items-center justify-start mt-4 flex-wrap;
+                span {
                   @apply px-2 py-1 uppercase text-blue-100 text-xs border bg-blue-300 border-blue-200;
-                }
-
-                p:not(:first-child) {
-                  @apply ml-2;
                 }
               }
             }

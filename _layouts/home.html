@@ -22,11 +22,11 @@
                 <div class="project-description">
                   <h2>{{ post.title }}</h2>
                   <p class="text-description">{{ post.description }}</p>
-                  <div class="project-tags">
+                  <p class="project-tags">
                     {% for t in post.tags %}
-                    <p>{{ t }}</p>
+                    <span>{{ t }}</span>
                     {% endfor %}
-                  </div>
+                  </p>
                 </div>
 
                 <!-- <div class="color-overlay"></div> -->
