@@ -14001,45 +14001,37 @@ div.home-layout div.content-wrapper div.banner-div ul li { background: rgba(255,
 
 @media (min-width: 1024px) { div.home-layout div.content-wrapper div.banner-div ul li { margin-left: .5rem; margin-right: .5rem; margin-top: 0; width: auto; } }
 
-div.home-layout div.content-wrapper div.main-content { flex: 1 1 0%; padding: 6rem 1.5rem; }
-
 div.home-layout div.content-wrapper div.main-content section h1 { --tw-text-opacity:1; --tw-border-opacity:1; border-bottom-width: 2px; border-color: rgba(56, 189, 248, var(--tw-border-opacity)); color: rgba(55, 65, 81, var(--tw-text-opacity)); font-size: 1.5rem; letter-spacing: .025em; line-height: 2rem; margin-bottom: 1.5rem; padding-bottom: .5rem; text-transform: uppercase; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; }
 
 div.home-layout div.content-wrapper div.main-content section p { --tw-text-opacity:1; color: rgba(75, 85, 99, var(--tw-text-opacity)); font-size: 1.125rem; line-height: 1.75rem; line-height: 2rem; }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section { display: flex; flex-direction: column; }
+div.home-layout div.content-wrapper div.main-content section.projects-section { padding: 3rem 1.5rem; }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper { display: grid; gap: 2rem; grid-template-columns: repeat(1, minmax(0, 1fr)); }
+@media (min-width: 1024px) { div.home-layout div.content-wrapper div.main-content section.projects-section { margin-left: auto; margin-right: auto; padding-bottom: 3rem; padding-top: 3rem; width: 66.666667%; } }
 
-@media (min-width: 1024px) { div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { div.home-layout div.content-wrapper div.main-content section.projects-section div.masonry-grid { padding-left: 1.5rem; padding-right: 1.5rem; } }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper div.feature-box { --tw-bg-opacity:1; align-items: center; background-color: rgba(243, 244, 246, var(--tw-bg-opacity)); cursor: pointer; display: flex; flex-direction: column; height: 12rem; justify-content: center; overflow: hidden; position: relative; width: auto; }
+div.home-layout div.content-wrapper div.main-content section.projects-section div.masonry-grid div.project-box { cursor: pointer; transition-duration: .15s; transition-duration: .2s; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper div.feature-box img { -o-object-fit: cover; object-fit: cover; -o-object-position: center; object-position: center; z-index: 10; }
+div.home-layout div.content-wrapper div.main-content section.projects-section div.masonry-grid div.project-box div.project-description { --tw-bg-opacity:1; --tw-text-opacity:1; background-color: rgba(56, 189, 248, var(--tw-bg-opacity)); color: rgba(255, 255, 255, var(--tw-text-opacity)); padding: 1.5rem; }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper div.feature-box div.color-overlay, div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper div.feature-box img { bottom: 0; left: 0; position: absolute; right: 0; top: 0; }
+div.home-layout div.content-wrapper div.main-content section.projects-section div.masonry-grid div.project-box div.project-description h2 { --tw-text-opacity:1; color: rgba(240, 249, 255, var(--tw-text-opacity)); font-size: 1.25rem; letter-spacing: .025em; line-height: 1.75rem; text-transform: uppercase; transition: inherit; }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper div.feature-box div.color-overlay { background-color: rgba(56, 189, 248, 0.75); transition-duration: .15s; transition-duration: .2s; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-timing-function: cubic-bezier(0, 0, 0.2, 1); z-index: 20; }
+div.home-layout div.content-wrapper div.main-content section.projects-section div.masonry-grid div.project-box div.project-description p.text-description { --tw-text-opacity:1; color: rgba(55, 65, 81, var(--tw-text-opacity)); font-size: .875rem; letter-spacing: 0; line-height: 1.25rem; margin-top: 1rem; }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper div.feature-box:hover div.color-overlay { background-color: rgba(56, 189, 248, 0.25); transition-duration: .15s; transition-duration: .2s; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-timing-function: cubic-bezier(0, 0, 0.2, 1); }
+div.home-layout div.content-wrapper div.main-content section.projects-section div.masonry-grid div.project-box div.project-description p.project-tags { align-items: center; display: flex; flex-wrap: wrap; justify-content: flex-start; margin-top: 1rem; }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper div.feature-box div.text-box { align-items: center; bottom: 0; display: flex; flex-direction: column; justify-content: center; left: 0; position: absolute; right: 0; top: 0; z-index: 30; }
+div.home-layout div.content-wrapper div.main-content section.projects-section div.masonry-grid div.project-box div.project-description p.project-tags span { --tw-border-opacity:1; --tw-bg-opacity:1; --tw-text-opacity:1; background-color: rgba(125, 211, 252, var(--tw-bg-opacity)); border-color: rgba(186, 230, 253, var(--tw-border-opacity)); border-width: 1px; color: rgba(224, 242, 254, var(--tw-text-opacity)); font-size: .75rem; letter-spacing: .1em; line-height: 1rem; padding: .25rem .5rem; text-transform: uppercase; }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper div.feature-box div.text-box h2 { --tw-text-opacity:1; --tw-border-opacity:1; border-bottom-width: 2px; border-color: rgba(56, 189, 248, var(--tw-border-opacity)); color: rgba(255, 255, 255, var(--tw-text-opacity)); font-size: 1.125rem; line-height: 1.75rem; margin-bottom: .75rem; padding-bottom: .5rem; text-transform: uppercase; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; }
+div.home-layout div.content-wrapper div.main-content section.projects-section div.masonry-grid div.project-box:hover { transition-duration: .15s; transition-duration: .2s; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter; transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper div.feature-box div.text-box p { --tw-text-opacity:1; color: rgba(209, 213, 219, var(--tw-text-opacity)); font-size: .875rem; line-height: 1.25rem; }
+div.home-layout div.content-wrapper div.main-content section.projects-section div.masonry-grid div.project-box:hover div.project-description h2 { --tw-text-opacity:1; color: rgba(255, 255, 255, var(--tw-text-opacity)); transition: inherit; }
 
-div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper { order: 2; }
-
-div.home-layout div.content-wrapper div.main-content section.projects-section div.text-wrapper { order: 1; }
-
-@media (min-width: 1024px) { div.home-layout div.content-wrapper div.main-content section.projects-section { display: grid; gap: 6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); } div.home-layout div.content-wrapper div.main-content section.projects-section div.feature-box-wrapper { order: 1; } div.home-layout div.content-wrapper div.main-content section.projects-section div.text-wrapper { order: 2; } }
-
-div.home-layout div.content-wrapper div.main-content section.data-storage-section { display: grid; gap: 3rem; grid-template-columns: repeat(1, minmax(0, 1fr)); }
+div.home-layout div.content-wrapper div.main-content section.data-storage-section { display: grid; gap: 3rem; grid-template-columns: repeat(1, minmax(0, 1fr)); padding: 3rem 1.5rem; }
 
 div.home-layout div.content-wrapper div.main-content section.data-storage-section .server-box { --tw-bg-opacity:1; align-items: center; background-color: rgba(56, 189, 248, var(--tw-bg-opacity)); display: flex; flex-direction: column; height: 8rem; justify-content: center; width: 8rem; }
 
-@media (min-width: 1024px) { div.home-layout div.content-wrapper div.main-content section.data-storage-section { gap: 6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { div.home-layout div.content-wrapper div.main-content section.data-storage-section { gap: 6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); padding-left: 0; padding-right: 0; } }
 
 footer { --tw-bg-opacity:1; background-color: rgba(243, 244, 246, var(--tw-bg-opacity)); padding-bottom: 1.5rem; padding-top: 1.5rem; }
 

@@ -16,6 +16,7 @@
   rel="stylesheet"
 />
 <link rel="stylesheet" href="/assets/css/index.css" />
+<script src="https://cdn.jsdelivr.net/npm/macy@2.5.1"></script>
 
     <title>Image Data Team - Turku BioImaging</title>
   </head>
@@ -37,8 +38,8 @@
       </div>
 
       <ul class="h-20">
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">About</a></li>
+        <!-- <li><a href="#">Projects</a></li> -->
+        <!-- <li><a href="#">About</a></li> -->
         <li class="text-blue-400">
           <a href="https://bioimaging.fi" target="_blank"
             ><i class="fas fa-globe mr-1"></i>bioimaging.fi</a
@@ -66,62 +67,128 @@
   </div>
 </div>
 
-        <div class="main-content container mx-auto">
+        <div class="main-content">
           <section class="projects-section">
-            <div class="feature-box-wrapper">
+            <div class="masonry-grid container mx-auto">
               
               
-              <div class="feature-box">
-                <div class="text-box">
+              <div class="project-box">
+                <img
+                  src="/assets/project_images/aland_reedbelts_featured.jpg"
+                  alt=""
+                />
+                <div class="project-description">
+                  <h2>Reedbelt Tracking in Åland Islands</h2>
+                  <p class="text-description">We analyzed high-resolution georeferenced drone photography to track the growth of reedbelts in the Åland Islands. An automated processing pipeline was created that puts together georeferencing, artificial intelligence prediction, tiling, and GeoJSON outputs.</p>
+                  <p class="project-tags">
+                    
+                    <span>python</span>
+                    
+                    <span>ai</span>
+                    
+                    <span>qgis</span>
+                    
+                    <span>rasterio</span>
+                    
+                  </p>
+                </div>
+
+                <!-- <div class="color-overlay"></div> -->
+              </div>
+              
+              <div class="project-box">
+                <img
+                  src="/assets/project_images/lipid_volume_analysis_featured.jpg"
+                  alt=""
+                />
+                <div class="project-description">
                   <h2>Lipid Volume Analysis</h2>
-                  <p>pythonfijistardistjupyter-notebook</p>
+                  <p class="text-description">Three-dimensional analysis of image data acquired using Spinning Disk Confocal Microscopy (SDCM) showing lipid structures.</p>
+                  <p class="project-tags">
+                    
+                    <span>python</span>
+                    
+                    <span>fiji</span>
+                    
+                    <span>ai</span>
+                    
+                  </p>
                 </div>
-                <img
-                  src="https://source.unsplash.com/640x480?abstract"
-                  alt=""
-                />
-                <div class="color-overlay"></div>
+
+                <!-- <div class="color-overlay"></div> -->
               </div>
               
-              <div class="feature-box">
-                <div class="text-box">
-                  <h2>Vimentin Texture Analysis</h2>
-                  <p>pythonfijidocker</p>
-                </div>
+              <div class="project-box">
                 <img
-                  src="https://source.unsplash.com/640x480?abstract"
+                  src="/assets/project_images/vimentin_texture_analysis_featured.jpg"
                   alt=""
                 />
-                <div class="color-overlay"></div>
+                <div class="project-description">
+                  <h2>Vimentin Phenotypes</h2>
+                  <p class="text-description">Three-dimensional image data of various vimentin phenotypes were analyzed for shape, texture, and colocalization charateristics.</p>
+                  <p class="project-tags">
+                    
+                    <span>python</span>
+                    
+                    <span>fiji</span>
+                    
+                    <span>docker</span>
+                    
+                  </p>
+                </div>
+
+                <!-- <div class="color-overlay"></div> -->
               </div>
               
-              <div class="feature-box">
-                <div class="text-box">
-                  <h2>Goblet Cell Detection</h2>
-                  <p>pythonkerasyoloqupath</p>
-                </div>
+              <div class="project-box">
                 <img
-                  src="https://source.unsplash.com/640x480?abstract"
+                  src="/assets/project_images/pas_goblet_cell_detection_featured.jpg"
                   alt=""
                 />
-                <div class="color-overlay"></div>
+                <div class="project-description">
+                  <h2>Mucin Vesicle Detection</h2>
+                  <p class="text-description">Nunc ultrices fermentum ligula, et consequat enim. Aliquam suscipit venenatis orci, vel pellentesque urna ullamcorper nec. Vivamus sit amet fringilla sem, sit amet placerat dui. In dapibus molestie fringilla. Duis ac ipsum placerat ante dignissim euismod porta eget augue. Curabitur in vehicula nulla.</p>
+                  <p class="project-tags">
+                    
+                    <span>python</span>
+                    
+                    <span>keras</span>
+                    
+                    <span>yolo</span>
+                    
+                    <span>qupath</span>
+                    
+                  </p>
+                </div>
+
+                <!-- <div class="color-overlay"></div> -->
               </div>
               
-              <div class="feature-box">
-                <div class="text-box">
+              <div class="project-box">
+                <img
+                  src="/assets/project_images/cell_organoid_analysis_featured.jpg"
+                  alt=""
+                />
+                <div class="project-description">
                   <h2>Cell Organoid Analysis</h2>
-                  <p>pythonjupyter-notebookfiji</p>
+                  <p class="text-description">Duis in auctor lacus. Sed eu dolor sodales, suscipit nisi vel, sodales purus. Quisque accumsan, odio facilisis hendrerit porttitor, metus quam dictum magna, at sodales ante quam a quam. Nam nunc quam, lobortis in massa ac, iaculis cursus nibh. Aliquam sollicitudin accumsan rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                  <p class="project-tags">
+                    
+                    <span>python</span>
+                    
+                    <span>jupyter-notebook</span>
+                    
+                    <span>fiji</span>
+                    
+                  </p>
                 </div>
-                <img
-                  src="https://source.unsplash.com/640x480?abstract"
-                  alt=""
-                />
-                <div class="color-overlay"></div>
+
+                <!-- <div class="color-overlay"></div> -->
               </div>
               
             </div>
 
-            <div class="text-wrapper">
+            <!-- <div class="text-wrapper">
               <h1>Image Analysis Projects</h1>
               <p class="w-full lg:w-2/3">
                 We provide analysis support for researchers to extract
@@ -129,9 +196,9 @@
                 software tools, artificial intelligence, programming, and
                 automation.
               </p>
-            </div>
+            </div> -->
           </section>
-          <hr class="my-24 border-grey-200" />
+          <hr class="border-grey-200" />
           <section class="data-storage-section">
             <div class="flex flex-col items-start lg:items-end">
               <img
@@ -230,5 +297,22 @@
 
       </div>
     </div>
+    <script>
+      var macyInstance = Macy({
+        container: ".masonry-grid",
+        margin: {
+          x: 45,
+          y: 45,
+        },
+
+        breakAt: {
+          640: 1,
+          768: 2,
+          1024: 3,
+          1280: 3,
+          1920: 4,
+        },
+      })
+    </script>
   </body>
 </html>
