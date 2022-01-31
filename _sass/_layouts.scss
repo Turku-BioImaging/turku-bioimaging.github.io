@@ -66,12 +66,12 @@ div.home-layout {
               }
 
               p.text-description {
-                @apply tracking-normal text-sm text-grey-700;
+                @apply tracking-normal text-base text-blue-700;
                 @apply mt-4;
               }
 
               p.project-tags {
-                @apply flex items-center justify-start mt-4 flex-wrap;
+                @apply flex items-center justify-start mt-8 flex-wrap;
                 span {
                   @apply px-2 py-1 uppercase text-blue-100 text-xs border bg-blue-300 border-blue-200 tracking-widest;
                 }
@@ -80,11 +80,16 @@ div.home-layout {
           }
 
           div.project-box:hover {
-            @apply transition ease-in-out duration-200;
+            @apply transition ease-in-out duration-200 shadow-2xl;
 
             div.project-description {
               h2 {
                 @apply text-white;
+                transition: inherit;
+              }
+
+              p.text-description {
+                @apply text-blue-900;
                 transition: inherit;
               }
             }
