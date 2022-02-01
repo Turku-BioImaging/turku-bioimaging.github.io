@@ -13965,6 +13965,8 @@ img, video { height: auto; max-width: 100%; }
 
 .fa, .fas { font-weight: 900; }
 
+@font-face { font-family: Gridbug; src: url(/assets/webfonts/Gridbug-ED9l.woff) format("woff"); }
+
 body { --tw-text-opacity:1; color: rgba(31, 41, 55, var(--tw-text-opacity)); font-family: Nunito Sans,sans-serif; }
 
 h1, h2, h3, h4, h5 { font-family: Poppins,sans-serif; }
@@ -13993,7 +13995,7 @@ div.home-layout { display: flex; flex-direction: column; height: 100vh; overflow
 
 div.home-layout div.content-wrapper { display: flex; flex: 1 1 0%; flex-direction: column; }
 
-div.home-layout div.content-wrapper div.banner-div { padding-left: 2rem; padding-right: 2rem; background: url(/assets/images/temporary_splash.jpg); background-position: 50%; background-size: cover; height: 65vh; }
+div.home-layout div.content-wrapper div.banner-div { padding-left: 2rem; padding-right: 2rem; background: url(/assets/images/temporary_splash_2.jpg); background-position: 50%; background-size: cover; height: 65vh; }
 
 @media (min-width: 1024px) { div.home-layout div.content-wrapper div.banner-div { padding-left: 0; padding-right: 0; } }
 
